@@ -1,13 +1,16 @@
 import './App.css';
-import Main from './Tours/Main';
+import MainReview from './Reviews/MainReview';
 // import Birthday from './Birtday/Birthday';
+// import Main from './Tours/Main';
+
 
 
 function App() {
   return (
     <div className="App">
       {/* <Birthday></Birthday> */}
-      <Main></Main>
+      {/* <Main></Main> */}
+      <MainReview></MainReview>
     </div>
   );
 }
