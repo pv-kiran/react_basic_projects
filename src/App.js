@@ -1,8 +1,8 @@
+import MainQuestion from './Accordion/MainQuestion';
 import './App.css';
-import MainReview from './Reviews/MainReview';
 // import Birthday from './Birtday/Birthday';
 // import Main from './Tours/Main';
-
+// import MainReview from './Reviews/MainReview';
 
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       {/* <Birthday></Birthday> */}
       {/* <Main></Main> */}
-      <MainReview></MainReview>
+      {/* <MainReview></MainReview> */}
+      <MainQuestion></MainQuestion>
     </div>
   );
 }
