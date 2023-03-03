@@ -1,10 +1,13 @@
 import './App.css';
-import Birthday from './Birtday/Birthday';
+import Main from './Tours/Main';
+// import Birthday from './Birtday/Birthday';
+
 
 function App() {
   return (
     <div className="App">
-      <Birthday></Birthday>
+      {/* <Birthday></Birthday> */}
+      <Main></Main>
     </div>
   );
 }
