@@ -1,9 +1,10 @@
 import './App.css';
+import Tab from './Tab/Tab';
 // import Birthday from './Birtday/Birthday';
 // import Main from './Tours/Main';
 // import MainReview from './Reviews/MainReview';
 // import MainQuestion from './Accordion/MainQuestion';
-import MainMenu from './Menu/MainMenu';
+// import MainMenu from './Menu/MainMenu';
 
 
 
@@ -14,7 +15,8 @@ function App() {
       {/* <Main></Main> */}
       {/* <MainReview></MainReview> */}
       {/* <MainQuestion></MainQuestion> */}
-      <MainMenu></MainMenu>
+      {/* <MainMenu></MainMenu> */}
+      <Tab></Tab>
     </div>
   );
 }
