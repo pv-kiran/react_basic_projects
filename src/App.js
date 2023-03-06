@@ -1,11 +1,14 @@
 import './App.css';
-import Slider from './Slider/Slider';
+import Groccery from './Grocery/Groccery';
 // import Birthday from './Birtday/Birthday';
 // import Main from './Tours/Main';
 // import MainReview from './Reviews/MainReview';
 // import MainQuestion from './Accordion/MainQuestion';
 // import MainMenu from './Menu/MainMenu';
 // import Tab from './Tab/Tab';
+// import Slider from './Slider/Slider';
+// import Lorem from './LoremGenerator/Lorem';
+
 
 
 
@@ -19,7 +22,9 @@ function App() {
       {/* <MainQuestion></MainQuestion> */}
       {/* <MainMenu></MainMenu> */}
       {/* <Tab></Tab> */}
-      <Slider></Slider>
+      {/* <Slider></Slider> */}
+      {/* <Lorem></Lorem> */}
+      <Groccery></Groccery>
     </div>
   );
 }
