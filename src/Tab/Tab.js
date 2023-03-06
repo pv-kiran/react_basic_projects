@@ -1,6 +1,5 @@
 import React , {useState , useEffect} from 'react'
 import { AiOutlineDoubleRight } from "react-icons/ai";
-import SubTab from './SubTab'
 import './style.css'
 
 const url = 'https://course-api.com/react-tabs-project'

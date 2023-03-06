@@ -1,10 +1,12 @@
 import './App.css';
-import Tab from './Tab/Tab';
+import Slider from './Slider/Slider';
 // import Birthday from './Birtday/Birthday';
 // import Main from './Tours/Main';
 // import MainReview from './Reviews/MainReview';
 // import MainQuestion from './Accordion/MainQuestion';
 // import MainMenu from './Menu/MainMenu';
+// import Tab from './Tab/Tab';
+
 
 
 
@@ -16,7 +18,8 @@ function App() {
       {/* <MainReview></MainReview> */}
       {/* <MainQuestion></MainQuestion> */}
       {/* <MainMenu></MainMenu> */}
-      <Tab></Tab>
+      {/* <Tab></Tab> */}
+      <Slider></Slider>
     </div>
   );
 }
