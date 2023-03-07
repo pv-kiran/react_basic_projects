@@ -1,5 +1,7 @@
 import './App.css';
-import Navbar from './NavBar/Navbar';
+import { AppProvider } from './Sidebar/context';
+import Container from './Sidebar/Container';
+
 // import Birthday from './Birtday/Birthday';
 // import Main from './Tours/Main';
 // import MainReview from './Reviews/MainReview';
@@ -9,6 +11,8 @@ import Navbar from './NavBar/Navbar';
 // import Slider from './Slider/Slider';
 // import Lorem from './LoremGenerator/Lorem';
 // import Groccery from './Grocery/Groccery';
+// import Navbar from './NavBar/Navbar';
+
 
 
 
@@ -27,7 +31,10 @@ function App() {
       {/* <Slider></Slider> */}
       {/* <Lorem></Lorem> */}
       {/* <Groccery></Groccery> */}
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
+      <AppProvider>
+          <Container></Container>
+      </AppProvider>
     </div>
   );
 }
