@@ -1,5 +1,5 @@
 import './App.css';
-import Groccery from './Grocery/Groccery';
+import Navbar from './NavBar/Navbar';
 // import Birthday from './Birtday/Birthday';
 // import Main from './Tours/Main';
 // import MainReview from './Reviews/MainReview';
@@ -8,6 +8,8 @@ import Groccery from './Grocery/Groccery';
 // import Tab from './Tab/Tab';
 // import Slider from './Slider/Slider';
 // import Lorem from './LoremGenerator/Lorem';
+// import Groccery from './Grocery/Groccery';
+
 
 
 
@@ -24,7 +26,8 @@ function App() {
       {/* <Tab></Tab> */}
       {/* <Slider></Slider> */}
       {/* <Lorem></Lorem> */}
-      <Groccery></Groccery>
+      {/* <Groccery></Groccery> */}
+      <Navbar></Navbar>
     </div>
   );
 }
