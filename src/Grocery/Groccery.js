@@ -58,8 +58,6 @@ function Groccery() {
   }
 
 
-  
-
   const showAlert = (show= false , msg='' , type='') => {
       setAlert({show , msg , type})
   }

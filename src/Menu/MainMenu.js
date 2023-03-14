@@ -5,7 +5,7 @@ import Menu from './Menu';
 import './Style..css'
 
 const allCategories = ['all' , ...new Set(items.map(item => item.category))] ;
-console.log(allCategories);
+// console.log(allCategories);
 
 
 function MainMenu() {
@@ -22,11 +22,6 @@ function MainMenu() {
     const newMenu = items.filter(item => item.category === category);
     console.log(newMenu);
     setMenu(newMenu);
-    // setMenu((menu) => {
-    //     return (
-    //         menu.filter(item => item.category === category)
-    //     )
-    // })
   }
 
   return (
